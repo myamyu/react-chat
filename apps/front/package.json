@@ -1,0 +1,21 @@
+{
+  "name": "front",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:client": "vite build",
+    "build:server": "tsc --project tsconfig.server.json",
+    "server:dev": "ts-node-dev --no-notify --project tsconfig.server.json src/server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "myamyu <myamyu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
