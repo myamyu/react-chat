@@ -1,6 +1,10 @@
-import {Express} from 'express';
+import express from 'express';
+import { createRoute } from './types/create-route';
 
-module.exports = (app:Express) => {
-  console.info('It is app server.');
+const createContentsRoute:createRoute = async () => {
+  const router = express.Router();
+
+  return router;
 };
 
+module.exports = createContentsRoute;

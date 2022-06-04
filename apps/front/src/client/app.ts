@@ -1,1 +1,1 @@
-console.info('hogehoge');
+console.info('hoge');
